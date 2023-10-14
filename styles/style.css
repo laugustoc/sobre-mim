@@ -81,7 +81,6 @@ body {
 }
 
 .apresentacao__links__link {
-   /* background-color: #22d1fd;*/
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -114,4 +113,46 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
+}
+
+.capa {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    row-gap: 50px;
+    column-gap: 120px;
+    justify-content: center;
+}
+
+.miniaturas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    gap: 10px;
+}
+
+.titulo-projeto {
+    font-family: 'Krona One', sans-serif;
+}
+
+.descricao-projeto {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.titulo-portfolio {
+    font-family: 'Krona One', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: black;
+    background-color: var(--cor-terciaria);
 }
